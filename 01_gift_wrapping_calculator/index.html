@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Gift Wrapping Calculator</h1>
+      <div id="demo-data">
+        <h2></h2>
+        <p></p>
+      </div>
+      <div id="result">
+        <h2>Result: <span></span></h2>
+      </div>
+      <div id="new-data-container">
+        <button id="show-new-data-form">Calculate new gift</button>
+        <form id="add-new-data">
+          <div class="add-new-data_input-fields">
+            <label for="width">Width</label>
+            <input type="number" id="width" required />
+          </div>
+          <div class="add-new-data_input-fields">
+            <label for="height">Height</label>
+            <input type="number" id="height" required />
+          </div>
+          <div class="add-new-data_input-fields">
+            <label for="length">Length</label>
+            <input type="number" id="length" required />
+          </div>
+          <div>
+            <button type="submit">Add gift parameter</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
