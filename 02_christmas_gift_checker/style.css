@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#question-container {
+  display: none;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  width: 100%;
+}
+
+#age-form {
+  width: 100%;
+  border: 1px solid;
+  padding: 15px;
+}
+
+.age-form__name {
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+#answer {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  padding: 10px 15px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  width: 85px;
+}
+
+.show {
+  display: flex !important;
+}

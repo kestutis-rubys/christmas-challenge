@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Gift Checker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Christmas Gift Checker</h1>
+      <form id="age-form">
+        <div class="age-form__name">
+          <label for="age">Insert Your Age</label>
+        </div>
+        <input type="text" id="age" required />
+        <button type="submit">Enter</button>
+      </form>
+      <div id="question-container">
+        <h2>Have you been good this year?</h2>
+        <div>
+          <button type="button" data-set="1">Yes</button>
+          <button type="button" data-set="0">No</button>
+        </div>
+      </div>
+      <h2 id="answer"></h2>
+    </div>
+  </body>
+</html>
